@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="MS DIGITAL creates modern websites, landing pages and digital designs for growing businesses.">
@@ -9,14 +10,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
       <a class="brand" href="#home" aria-label="MS DIGITAL home">
-        <img class="brand-logo" src="ms-digital-logo.png" alt="MS DIGITAL — Web Design & Digital Creative">
+        <img class="brand-logo" src="images/ms-digital-logo.png" alt="MS DIGITAL — Web Design & Digital Creative">
       </a>
 
       <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
@@ -100,14 +101,44 @@
           <article class="project-card project-cleaning">
             <div class="project-art cleaning-art"><div class="art-top"><b>BRIGHT<span>HOME</span></b><i>☰</i></div><div class="cleaning-content"><small>FRESH START. FRESH SPACE.</small><strong>A cleaner home,<br>a happier you.</strong><span></span><i></i></div><div class="cleaning-shape"></div></div>
             <div class="project-info"><div><p class="project-type" data-i18n="project1Type">WEBSITE DESIGN · HTML/CSS</p><h3>BrightHome Cleaning</h3><p data-i18n="project1Text">A clean, friendly website concept for a US residential cleaning business.</p></div><span class="project-index">01</span></div>
+            <div class="case-study">
+  <p class="case-label" data-i18n="caseGoalLabel">PROJECT GOAL</p>
+  <p data-i18n="project1Goal">Help a residential cleaning business present its services clearly and build trust with potential customers.</p>
+
+  <p class="case-label" data-i18n="caseSolutionLabel">DESIGN SOLUTION</p>
+  <p data-i18n="project1Solution">A clean blue-and-white visual style, clear service sections, mobile-friendly layouts and visible contact calls to action.</p>
+
+  <p class="case-label" data-i18n="caseDeliverablesLabel">DELIVERABLES</p>
+  <p data-i18n="project1Deliverables">Responsive landing page, service presentation and contact section.</p>
+</div>
           </article>
           <article class="project-card project-restaurant">
             <div class="project-art restaurant-art"><div class="restaurant-nav">OLIVA <span>MENU　 ABOUT　 CONTACT</span></div><div class="restaurant-center"><small>GOOD FOOD. GOOD MOMENTS.</small><strong>Made with<br>love & flavor.</strong><i>DISCOVER OUR MENU</i></div><div class="food-circle"></div></div>
             <div class="project-info"><div><p class="project-type" data-i18n="project2Type">WEBSITE DESIGN · HTML/CSS</p><h3>Oliva Restaurant</h3><p data-i18n="project2Text">An elegant restaurant landing page concept with a warm editorial feel.</p></div><span class="project-index">02</span></div>
+            <div class="case-study">
+  <p class="case-label" data-i18n="caseGoalLabel">PROJECT GOAL</p>
+  <p data-i18n="project2Goal">Present a restaurant's atmosphere, food concept and essential information in an appealing way.</p>
+
+  <p class="case-label" data-i18n="caseSolutionLabel">DESIGN SOLUTION</p>
+  <p data-i18n="project2Solution">An editorial layout, warm colors, refined typography and a clear visual hierarchy to highlight the menu and restaurant identity.</p>
+
+  <p class="case-label" data-i18n="caseDeliverablesLabel">DELIVERABLES</p>
+  <p data-i18n="project1Deliverables">Restaurant landing page concept, navigation and menu-focused presentation.</p>
+</div>
           </article>
           <article class="project-card project-social">
             <div class="project-art social-art"><div class="social-post post-a"><small>YOUR BRAND</small><b>MAKE<br>IT <em>MATTER.</em></b><span>SHOW UP WITH CONFIDENCE</span></div><div class="social-post post-b"><span>NEW COLLECTION</span><b>Less noise.<br>More <i>you.</i></b><small>DESIGNED TO CONNECT</small></div><div class="social-post post-c"><b>CREATE<br>YOUR<br>SPACE.</b><span>MS DIGITAL</span></div></div>
             <div class="project-info"><div><p class="project-type" data-i18n="project3Type">SOCIAL MEDIA · CANVA</p><h3>Social Media Kit</h3><p data-i18n="project3Text">A coordinated set of social media graphics exploring a bold, modern brand style.</p></div><span class="project-index">03</span></div>
+            <div class="case-study">
+  <p class="case-label" data-i18n="caseGoalLabel">PROJECT GOAL</p>
+  <p data-i18n="project3Goal">Create a consistent visual direction that helps a fictional brand communicate clearly across social media.</p>
+
+  <p class="case-label" data-i18n="caseSolutionLabel">DESIGN SOLUTION</p>
+  <p data-i18n="project3Solution">A coordinated set of layouts using consistent colors, typography and bold headlines to improve visual recognition.</p>
+
+  <p class="case-label" data-i18n="caseDeliverablesLabel">DELIVERABLES</p>
+  <p data-i18n="project3Deliverables">Social media post templates, promotional graphics and a simple visual system.</p>
+</div>
           </article>
         </div>
         <p class="portfolio-disclaimer" data-i18n="portfolioDisclaimer">These are concept projects, not commissioned client work.</p>
@@ -144,7 +175,7 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><img class="brand-logo footer-logo" src="ms-digital-logo.png" alt="MS DIGITAL"></a><p data-i18n="footerText">Creative websites. Professional design.</p><span>© <span id="year"></span> MS DIGITAL</span></div>
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><img class="brand-logo footer-logo" src="images/ms-digital-logo.png" alt="MS DIGITAL"></a><p data-i18n="footerText">Creative websites. Professional design.</p><span>© <span id="year"></span> MS DIGITAL</span></div>
   </footer>
 </body>
 </html>

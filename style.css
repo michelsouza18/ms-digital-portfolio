@@ -10,3 +10,45 @@
 @media(max-width:900px){.hero-grid{gap:25px}.service-grid{grid-template-columns:repeat(2,1fr)}.intro-grid,.process-grid,.contact-grid{gap:50px}.project-art{height:220px}.project-info h3{font-size:15px}}
 @media(max-width:680px){.container{width:min(100% - 36px,540px)}.section{padding:78px 0}.site-header{height:70px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:69px;left:0;right:0;background:white;padding:20px 24px 25px;border-bottom:1px solid var(--line);box-shadow:0 15px 25px #10233f12;flex-direction:column;align-items:stretch;gap:17px}.nav-links.open{display:flex}.nav-links a{padding:4px 0}.language-switch{align-self:flex-start}.hero{padding-top:58px}.hero-grid{grid-template-columns:1fr;gap:12px}.hero-visual{height:330px;margin-top:8px}.visual-glow{width:280px;height:280px}.browser-card{width:92%}.browser-content{padding:17px}.mock-hero{margin:25px 0 18px}.chip-one{right:0;top:43px}.chip-two{left:0;bottom:54px}.hero-bottom{font-size:8px;gap:14px;line-height:1.6}.hero-bottom span:last-child{text-align:right}.intro-grid,.process-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.intro-copy{padding-top:0}.section-heading{display:block;margin-bottom:30px}.section-heading>p{margin-top:20px}.service-grid{gap:10px}.service-card{padding:21px 16px;min-height:235px}.service-card h3{font-size:14px}.service-card p{font-size:11px}.project-grid{grid-template-columns:1fr;gap:25px}.project-art{height:270px}.project-info{padding-top:14px}.process-list{margin-top:8px}.contact-form{padding:22px 18px}.footer-inner{flex-wrap:wrap}.footer-inner p{order:3;width:100%}}
 @media(max-width:380px){.service-grid{grid-template-columns:1fr}.service-card{min-height:190px}.hero-actions{gap:17px}.button{padding:12px 14px}.hero-bottom{font-size:7px}}
+
+/* Portfolio case studies */
+.case-study {
+  padding: 18px;
+  margin: 0 0 8px;
+  background: #f5f8fc;
+  border: 1px solid #e3e9f1;
+  border-radius: 10px;
+}
+
+.case-label {
+  margin: 12px 0 4px;
+  color: #2458a6;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.case-label:first-child {
+  margin-top: 0;
+}
+
+.case-study p:not(.case-label) {
+  margin: 0;
+  color: #66758a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.project-card {
+  align-self: start;
+}
+
+.project-card:hover .case-study {
+  border-color: #c4d7f3;
+}
+
+@media (max-width: 680px) {
+  .case-study {
+    padding: 16px;
+  }
+}

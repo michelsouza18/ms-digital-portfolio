@@ -30,7 +30,19 @@ const translations = {
     contactLabel:"05 — CONTACT",contactTitle:'Have a project<br>in <span>mind?</span>',contactText:"Tell me a little about what you're building. Let's explore how I can help.",
     emailLabel:"Send an email",whatsappLabel:"Message on WhatsApp",formName:"Your name",formEmail:"Your email",formService:"What do you need?",
     formMessage:"Tell me about your project",formButton:"Send project details",formHint:"Your message will open in your email app or WhatsApp. No data is stored on this website.",
-    footerText:"Creative websites. Professional design."
+    footerText:"Creative websites. Professional design.",
+caseGoalLabel: "PROJECT GOAL",
+caseSolutionLabel: "DESIGN SOLUTION",
+caseDeliverablesLabel: "DELIVERABLES",
+project1Goal: "Help a residential cleaning business present its services clearly and build trust with potential customers.",
+project1Solution: "A clean blue-and-white visual style, clear service sections, mobile-friendly layouts and visible contact calls to action.",
+project1Deliverables: "Responsive landing page, service presentation and contact section.",
+project2Goal: "Present a restaurant's atmosphere, food concept and essential information in an appealing way.",
+project2Solution: "An editorial layout, warm colors, refined typography and a clear visual hierarchy to highlight the menu and restaurant identity.",
+project2Deliverables: "Restaurant landing page concept, navigation and menu-focused presentation.",
+project3Goal: "Create a consistent visual direction that helps a fictional brand communicate clearly across social media.",
+project3Solution: "Coordinated layouts with consistent colors, typography and bold headlines.",
+project3Deliverables: "Social media post templates, promotional graphics and a simple visual system.",
   },
   pt: {
     navHome:"Início",navAbout:"Sobre",navServices:"Serviços",navWork:"Portfólio",navContact:"Contato",
@@ -57,7 +69,19 @@ const translations = {
     contactLabel:"05 — CONTATO",contactTitle:'Tem um projeto<br>em <span>mente?</span>',contactText:"Conte um pouco sobre o que você está criando. Vamos conversar sobre como posso ajudar.",
     emailLabel:"Enviar um e-mail",whatsappLabel:"Conversar pelo WhatsApp",formName:"Seu nome",formEmail:"Seu e-mail",formService:"Do que você precisa?",
     formMessage:"Conte sobre seu projeto",formButton:"Enviar detalhes do projeto",formHint:"Sua mensagem será aberta no seu aplicativo de e-mail ou WhatsApp. Este site não armazena dados.",
-    footerText:"Sites criativos. Design profissional."
+    footerText:"Sites criativos. Design profissional.",
+caseGoalLabel: "OBJETIVO DO PROJETO",
+caseSolutionLabel: "SOLUÇÃO DE DESIGN",
+caseDeliverablesLabel: "ENTREGÁVEIS",
+project1Goal: "Ajudar uma empresa de limpeza residencial a apresentar seus serviços com clareza e transmitir confiança.",
+project1Solution: "Visual limpo em azul e branco, serviços bem organizados, layout adaptável a celulares e chamadas para contato visíveis.",
+project1Deliverables: "Landing page responsiva, apresentação de serviços e seção de contato.",
+project2Goal: "Apresentar a atmosfera, o conceito gastronômico e as informações essenciais de um restaurante.",
+project2Solution: "Layout editorial, cores acolhedoras, tipografia refinada e hierarquia visual para destacar o cardápio e a identidade.",
+project2Deliverables: "Conceito de landing page, navegação e apresentação do cardápio.",
+project3Goal: "Criar uma direção visual consistente para uma marca fictícia se comunicar nas redes sociais.",
+project3Solution: "Artes coordenadas com cores, tipografia e títulos marcantes consistentes.",
+project3Deliverables: "Modelos de publicações, artes promocionais e sistema visual simples.",
   }
 };
 
